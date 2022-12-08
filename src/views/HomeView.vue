@@ -18,6 +18,8 @@ export default {
 </script>
 
 <template>
+  
+  
   <div class="fundo">
     <h3>METFLIX</h3>
     <div class="input-group">
@@ -35,6 +37,8 @@ export default {
   <div class="container">
     <ContentApi v-for="filme of filmes" :key="filme.id" :filme="filme" />
   </div>
+
+  
 </template>
 
 <style scoped>
@@ -61,7 +65,7 @@ h3 {
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 500%;
+  font-size: 2.5rem;
   
 }
 .fundo {
@@ -72,5 +76,8 @@ h3 {
   border-radius: 24px;
   box-shadow: 0 0 24px rgb(0, 0, 0);
   
+}
+@media (max-width: 600px)
+{
 }
 </style>

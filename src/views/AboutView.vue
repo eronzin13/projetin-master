@@ -10,7 +10,7 @@
       component: HomeView
     },
     
-      <p><img src="@/assets/vuejs-ar21.png" /></p>
+      <p class="vue"><img src="@/assets/vuejs-ar21.png" /></p>
     </div>
   </div>
   <div class="container mt-5">
@@ -59,6 +59,15 @@ margin-bottom: 5%;
 
 }
 .col-sm-4 {
-  margin-left: 10%;
+  margin-left: 17%;
+}
+vue:hover{
+  color: black;
+}
+@media (max-width: 900px)
+{
+  h3{
+    font-size: 2.0rem;
+  }
 }
 </style>

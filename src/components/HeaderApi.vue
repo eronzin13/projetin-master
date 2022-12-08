@@ -2,6 +2,7 @@
   <div class="borda">
   <nav class="navbar navbar-expand-lg text-white navbar-white bg-dark">
     <div class="navbar">
+      <div class="content">
       <a id="coisaboa" class="navbar-brand text-white" href="/">METFLIX</a>
       <button
         class="navbar-toggler"
@@ -25,7 +26,7 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="">Series</a>
+            <a class="nav-link text-white" href="/series">Series</a>
           </li>
           <li class="nav-item"></li>
           <li class="nav-item dropdown">
@@ -45,6 +46,7 @@
           </li>
         </ul>
       </div>
+      </div>
     </div>
   </nav></div>
 </template>
@@ -56,5 +58,11 @@
 }
 .borda {
   box-shadow: 0 0 24px rgb(0, 0, 0);
+}
+.content{
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 </style>
