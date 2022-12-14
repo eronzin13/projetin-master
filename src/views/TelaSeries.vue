@@ -24,6 +24,7 @@ export default {
       <h3>METFLIX</h3>
     </router-link>
   </div>
+  
   <div class="container">
     <ContentApi v-for="filme of filmes" :key="filme.id" :filme="filme" />
   </div>
@@ -31,6 +32,8 @@ export default {
   <div class="container">
     <ContentApi v-for="filme of filmes" :key="filme.id" :filme="filme" />
   </div>
+
+
 </template>
 <style>
 .container {

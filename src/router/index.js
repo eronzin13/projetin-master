@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import TelaFilmes from '../views/TelaFilmes.vue'
 import TelaSeries from '../views/TelaSeries.vue'
+import InfoFilmes from '../views/InfoFilmes.vue'
 
 
 const router = createRouter({
@@ -22,6 +23,12 @@ const router = createRouter({
       name: 'series',
       component: TelaSeries
     },
+    {
+      path: '/info',
+      name: 'info',
+      component: InfoFilmes
+    },
+    
     
     {
       path: '/about',
